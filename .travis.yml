@@ -9,13 +9,15 @@ before_install:
 script:
     - docker run -e CI=true michalpowaga/docker-react npm test -- --coverage
 
+before_deploy: "echo 'deployment is about to start!'"
+
 deploy:
     provider: elasticbeanstalk
     region: "eu-central-1"
-    app: "docker-react-v2"
-    env: "DockerReactV2-env-1"
+    app: "docker-react-v3"
+    env: "DockerReactV3-env"
     bucket_name: "elasticbeanstalk-eu-central-1-442152860333"
-    bucket_path: "docker-react-v2"
+    bucket_path: "docker-react-v3"
     on:
         branch: master
     access_key_id: $AWS_ACCESS_KEY_ID

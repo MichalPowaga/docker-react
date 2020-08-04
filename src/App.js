@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Teraz działa na Linux 2/3.0.3!
+          Na "Linux 2/3.0.3" nie poszło, na Linux"/2.15.2" działa!
         </p>
         <a
           className="App-link"
