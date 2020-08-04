@@ -10,6 +10,7 @@ function App() {
         <p>
           Na "Linux 2/3.0.3" nie poszło, na Linux"/2.15.2" działa!
         </p>
+        <p>Teraz wychodzę z feature</p>
         <a
           className="App-link"
           href="https://reactjs.org"
