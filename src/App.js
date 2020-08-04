@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Na "Linux 2/3.0.3" nie poszło, na Linux"/2.15.2" działa!
+          Ostatnia próba na "Linux 2/3.0.3".
         </p>
         <p>Teraz wychodzę z feature</p>
         <a

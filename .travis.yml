@@ -14,10 +14,10 @@ before_deploy: "echo 'deployment is about to start!'"
 deploy:
     provider: elasticbeanstalk
     region: "eu-central-1"
-    app: "docker-react-v3"
-    env: "DockerReactV3-env"
+    app: "docker-react-v4"
+    env: "DockerReactV4-env"
     bucket_name: "elasticbeanstalk-eu-central-1-442152860333"
-    bucket_path: "docker-react-v3"
+    bucket_path: "docker-react-v4"
     on:
         branch: master
     access_key_id: $AWS_ACCESS_KEY_ID
